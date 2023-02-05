@@ -1,0 +1,21 @@
+{
+  "name": "local_store_freelance_project",
+  "version": "1.0.0",
+  "description": "A freelance project of a local store",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sanjeev Karthick K",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.9.0",
+    "nodemon": "^2.0.20",
+    "stripe": "^11.9.1"
+  }
+}
